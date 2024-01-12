@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de registro dos columnas</title>
+    <style>
+        body {
+            margin: 10px;
+            padding: 10px;
+            background-color: red;
+            color: white;
+        
+        }
+
+        
+
+
+
+        body {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .column1 {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .column2 {
+            width: 45%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            padding: 5px;
+            margin-bottom: 20px;
+            margin-top: 10px;
+            border-radius: 8px;
+            background-color: #385ee7;
+        }
+
+        form {
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            color: black;
+            border-radius: 4px;
+        }
+
+        input, textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+            border: 1px solid #201d1d12;
+            border-radius: 4px;
+           
+            background-color: white;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        
+    
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="column1">
+        <h1>HOLA BIENVENIDOS</h1>
+        <p>ES UN PLACER CONOCERTE POR FAVOR INGRESA TUS DATOS, A CONTINUACION DALE EN ENVIAR, TE INVITAMOS A CONOCER LO NUEVO EN HTML:5.
+        
+    </div>
+
+    <div class="column2">
+
+        <div class="card">  <!-- esto es un card -->
+            <h1>REGISTRATE</h1>
+            
+        </div> 
+        <form> <!-- esto es un formulario -->
+            
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="nombre">Nombre:</label>
+           
+
+            
+            <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+
+            <input type="password" id="password" name="password" required></textarea>
+            <label for="password">password:</label>
+
+
+            
+            
+            
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
